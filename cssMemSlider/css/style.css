@@ -42,13 +42,12 @@ a {
   border-radius: 1%;
 }
 
-figcaption {
+.slider__text {
   padding-top: 20px;
 }
 
 .slider__bottom {
-  display: flex;
-  justify-content: end;
+  text-align: right;
 }
 
 .slider__btn {
