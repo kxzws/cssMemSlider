@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cssMemSlider</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slider__slides">
+        <figure>
+          <img
+            src="assets/img/1.jpg"
+            alt="pic: meme"
+            id="1"
+            class="slider__slide"
+          />
+          <figcaption>no comments</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/2.jpg"
+            alt="pic: meme"
+            id="2"
+            class="slider__slide"
+          />
+          <figcaption>ковид не пощадил никого...</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/3.jpg"
+            alt="pic: meme"
+            id="3"
+            class="slider__slide"
+          />
+          <figcaption>...</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/4.jpg"
+            alt="pic: meme"
+            id="4"
+            class="slider__slide"
+          />
+          <figcaption>мемы выбирал мой молодой человек</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="assets/img/5.jpg"
+            alt="pic: meme"
+            id="5"
+            class="slider__slide"
+          />
+          <figcaption>у тебя что, не было философии на 1 курсе?</figcaption>
+        </figure>
+      </div>
+      <!-- /.slider__slides -->
+
+      <div class="slider__bottom">
+        <div class="slider__control-panel">
+          <a href="#1" class="slider__btn">
+            <span class="slider__btn-dot"></span>
+          </a>
+          <a href="#2" class="slider__btn">
+            <span class="slider__btn-dot"></span>
+          </a>
+          <a href="#3" class="slider__btn">
+            <span class="slider__btn-dot"></span>
+          </a>
+          <a href="#4" class="slider__btn">
+            <span class="slider__btn-dot"></span>
+          </a>
+          <a href="#5" class="slider__btn">
+            <span class="slider__btn-dot"></span>
+          </a>
+        </div>
+      </div>
+      <!-- /.slider__bottom -->
+    </div>
+    <!-- /.slider -->
+  </body>
 </html>

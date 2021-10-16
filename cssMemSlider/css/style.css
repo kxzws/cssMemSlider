@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 24px;
+}
+
+body {
+  color: #fff;
+  background-color: #202324;
+}
+
+a {
+  text-decoration: none;
+}
+
+.slider {
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 95%;
+  width: 41.7%;
+}
+
+.slider__slides {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.slider__slide {
+  height: 666px;
+  width: 853px;
+  object-fit: fill;
+  border-radius: 1%;
+}
+
+figcaption {
+  padding-top: 20px;
+}
+
+.slider__bottom {
+  display: flex;
+  justify-content: end;
+}
+
+.slider__btn {
+  margin-right: 5px;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+
+.slider__btn:last-child {
+  margin-right: 0;
+}
+
+.slider__btn-dot {
+  margin-left: auto;
+  height: 15px;
+  width: 15px;
+  display: block;
+  background-color: #7aabf0;
+  border: 3px solid #7aabf0;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.slider__btn:hover .slider__btn-dot {
+  background-color: #fff;
+  border: 3px solid #fff;
+}
+
+.slider__btn:active .slider__btn-dot {
+  background-color: #999999;
+  border: 3px solid #999999;
+}
+
+.slider__btn:focus .slider__btn-dot {
+  background-color: transparent;
+  border: 3px solid #fff;
+}
