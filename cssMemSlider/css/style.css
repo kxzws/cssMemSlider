@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 24px;
+  font-size: 25px;
 }
 
 body {
@@ -20,7 +20,7 @@ a {
 .slider {
   margin: 0 auto;
   margin-top: 30px;
-  max-width: 1280px;
+  max-width: 51.2rem;
   font-size: 1.5rem;
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 .slider__slide {
-  width: 1280px;
+  width: 51.2rem;
   object-fit: fill;
   border-radius: 1%;
 }
@@ -89,12 +89,12 @@ a {
 @media screen and (max-width: 1440px) {
   .slider {
     margin-top: 20px;
-    max-width: calc(1280px * 0.8);
+    max-width: calc(51.2rem * 0.8);
     font-size: 1.2rem;
   }
 
   .slider__slide {
-    width: calc(1280px * 0.8);
+    width: calc(51.2rem * 0.8);
   }
 
   .slider__text {
@@ -105,12 +105,12 @@ a {
 @media screen and (max-width: 1024px) {
   .slider {
     margin-top: 15px;
-    max-width: calc(1280px * 0.6);
+    max-width: calc(51.2rem * 0.6);
     font-size: 1rem;
   }
 
   .slider__slide {
-    width: calc(1280px * 0.6);
+    width: calc(51.2rem * 0.6);
   }
 
   .slider__text {
@@ -130,12 +130,12 @@ a {
 
 @media screen and (max-width: 768px) {
   .slider {
-    max-width: calc(1280px * 0.42);
+    max-width: calc(51.2rem * 0.42);
     font-size: .8rem;
   }
 
   .slider__slide {
-    width: calc(1280px * 0.42);
+    width: calc(51.2rem * 0.42);
   }
 
   .slider__btn {
@@ -151,12 +151,12 @@ a {
 
 @media screen and (max-width: 540px) {
   .slider {
-    max-width: calc(1280px * 0.32);
+    max-width: calc(51.2rem * 0.32);
     font-size: .7rem;
   }
 
   .slider__slide {
-    width: calc(1280px * 0.32);
+    width: calc(51.2rem * 0.32);
   }
 
   .slider__btn {
@@ -172,12 +172,12 @@ a {
 
 @media screen and (max-width: 420px) {
   .slider {
-    max-width: calc(1280px * 0.25);
+    max-width: calc(51.2rem * 0.25);
     font-size: .6rem;
   }
 
   .slider__slide {
-    width: calc(1280px * 0.25);
+    width: calc(51.2rem * 0.25);
   }
 
   .slider__btn {
