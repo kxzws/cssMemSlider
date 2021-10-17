@@ -19,9 +19,9 @@ a {
 
 .slider {
   margin: 0 auto;
-  margin-top: 50px;
-  height: 95%;
-  width: 41.7%;
+  margin-top: 30px;
+  max-width: 1280px;
+  font-size: 1.5rem;
 }
 
 .slider__slides {
@@ -36,8 +36,7 @@ a {
 }
 
 .slider__slide {
-  height: 666px;
-  width: 853px;
+  width: 1280px;
   object-fit: fill;
   border-radius: 1%;
 }
@@ -52,8 +51,8 @@ a {
 
 .slider__btn {
   margin-right: 5px;
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   display: inline-block;
 }
 
@@ -63,8 +62,8 @@ a {
 
 .slider__btn-dot {
   margin-left: auto;
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   display: block;
   background-color: #7aabf0;
   border: 3px solid #7aabf0;
@@ -85,4 +84,109 @@ a {
 .slider__btn:focus .slider__btn-dot {
   background-color: transparent;
   border: 3px solid #fff;
+}
+
+@media screen and (max-width: 1440px) {
+  .slider {
+    margin-top: 20px;
+    max-width: calc(1280px * 0.8);
+    font-size: 1.2rem;
+  }
+
+  .slider__slide {
+    width: calc(1280px * 0.8);
+  }
+
+  .slider__text {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slider {
+    margin-top: 15px;
+    max-width: calc(1280px * 0.6);
+    font-size: 1rem;
+  }
+
+  .slider__slide {
+    width: calc(1280px * 0.6);
+  }
+
+  .slider__text {
+    padding-top: 10px;
+  }
+
+  .slider__btn {
+    height: 25px;
+    width: 25px;
+  }
+
+  .slider__btn-dot {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    max-width: calc(1280px * 0.42);
+    font-size: .8rem;
+  }
+
+  .slider__slide {
+    width: calc(1280px * 0.42);
+  }
+
+  .slider__btn {
+    height: 20px;
+    width: 20px;
+  }
+
+  .slider__btn-dot {
+    height: 13px;
+    width: 13px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .slider {
+    max-width: calc(1280px * 0.32);
+    font-size: .7rem;
+  }
+
+  .slider__slide {
+    width: calc(1280px * 0.32);
+  }
+
+  .slider__btn {
+    height: 18px;
+    width: 18px;
+  }
+
+  .slider__btn-dot {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .slider {
+    max-width: calc(1280px * 0.25);
+    font-size: .6rem;
+  }
+
+  .slider__slide {
+    width: calc(1280px * 0.25);
+  }
+
+  .slider__btn {
+    height: 15px;
+    width: 15px;
+  }
+
+  .slider__btn-dot {
+    height: 10px;
+    width: 10px;
+  }
 }
