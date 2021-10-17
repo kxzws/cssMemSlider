@@ -152,11 +152,16 @@ a {
 @media screen and (max-width: 540px) {
   .slider {
     max-width: calc(51.2rem * 0.32);
-    font-size: .7rem;
+    font-size: .9rem;
   }
 
   .slider__slide {
     width: calc(51.2rem * 0.32);
+  }
+
+  .slider__bottom {
+    padding-top: 10px;
+    text-align: center;
   }
 
   .slider__btn {
@@ -173,7 +178,7 @@ a {
 @media screen and (max-width: 420px) {
   .slider {
     max-width: calc(51.2rem * 0.25);
-    font-size: .6rem;
+    font-size: .75rem;
   }
 
   .slider__slide {
